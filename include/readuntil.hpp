@@ -10,9 +10,10 @@ class ReadUntilIO
 private:
     std::ifstream ifs;
     std::string delimiter;
+    ssize_t ReadUntilIO::scan_eol(ssize_t);
 
 public:
-    ReadUntilIO(std::ifstream file, const std::string& delimiter);
+    ReadUntilIO(std::ifstream, const std::string &);
     ~ReadUntilIO();
     std::string readline();
     void closeFile();
