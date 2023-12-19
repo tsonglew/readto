@@ -1,4 +1,4 @@
-#include "readuntil.hpp"
+#include "readto.hpp"
 #include <assert.h>
 
 ReadUntilIO::ReadUntilIO(std::ifstream ifs, const std::string &delimiter) : ifs(std::move(ifs)), delimiter(delimiter)

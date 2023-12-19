@@ -8,4 +8,4 @@ file(GLOB SOURCE_FILES ${SOURCE_DIR}/*.cpp ${SOURCE_DIR}/*.hpp)
 file(GLOB HEADER_FILES ${INCLUDE_DIR}/*.hpp)
 
 include_directories(${INCLUDE_DIR})
-add_executable(readuntil ${SOURCE_FILES} ${HEADER_FILES})
+add_executable(readto ${SOURCE_FILES} ${HEADER_FILES})
